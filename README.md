@@ -1,18 +1,6 @@
 # Solidity_OR_Substrate
 I will attempt to contrast the development of a smart contract &amp; the development of a parachain.
 
-# Solidity Smart Contract
+### What's a Smart Contract?
 
-
-
-
-
-
-
-
-
-
-
-
-# Substrate based parachain
-Kusama & Polkadot are layer 0 relay chain that provide several ways for you to deploy your app: as a smart contract on an existing parachain, as your own parachain, or as a parathread. 
+An Ethereum smart contract is a computer program that runs on the Ethereum blockchain. It executes automatically when certain conditions are met, and it cannot be changed once deployed. Smart contracts are useful for executing financial transactions, voting, auctions, and more, and they enable new forms of decentralized applications and organizations. Overall, smart contracts increase trust, efficiency, and innovation in a variety of industries.
