@@ -38,6 +38,9 @@ In summary, constructing a parathread involves defining the use case, developing
 ### Links to Sources.
 
 Builder's Starter Guide - https://guide.kusama.network/docs/build-build-with-polkadot
+
 Collator - https://guide.kusama.network/docs/learn-collator
+
 Polkadot GitHub - https://github.com/paritytech/polkadot
+
 Connect A Realy and Parachain (Tutorial) - https://docs.substrate.io/tutorials/connect-relay-and-parachains/prepare-a-local-relay-chain/
