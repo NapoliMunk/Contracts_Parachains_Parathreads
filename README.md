@@ -33,3 +33,11 @@ Both parachains and parathreads provide customization options for developers, al
 ### Parathread Construction
 
 In summary, constructing a parathread involves defining the use case, developing the code, connecting it to the main blockchain network, allocating resources, testing, and launching it. Parathreads provide an additional layer of scalability to blockchain networks, allowing for specialized use cases without impacting the performance of the main blockchain. The specific instructions and protocols for constructing a parathread may vary depending on the blockchain platform being used.
+
+
+### Links to Sources.
+
+Builder's Starter Guide - https://guide.kusama.network/docs/build-build-with-polkadot
+Collator - https://guide.kusama.network/docs/learn-collator
+Polkadot GitHub - https://github.com/paritytech/polkadot
+Connect A Realy and Parachain (Tutorial) - https://docs.substrate.io/tutorials/connect-relay-and-parachains/prepare-a-local-relay-chain/
