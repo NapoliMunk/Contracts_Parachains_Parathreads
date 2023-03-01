@@ -15,3 +15,4 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 
 # Substrate based parachain
+Kusama & Polkadot are layer 0 relay chain that provide several ways for you to deploy your app: as a smart contract on an existing parachain, as your own parachain, or as a parathread. 
