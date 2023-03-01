@@ -11,7 +11,15 @@ A parachain is a separate blockchain that can communicate with other blockchains
 
 Parachains provide more space and flexibility for developers to create custom features and applications. They can be used to create things like custom monetary systems, voting systems, or governance mechanisms that can be tailored to specific needs.
 
-### What's a parathread?
+## Parachain Construction
+
+Building a parachain involves defining what it will do, building the logic it will use to process transactions, connecting it to the Kusama Relay Chain, testing it, and maintaining and upgrading it over time. It's a complex process that requires a good understanding of blockchain development, but it allows developers to build custom blockchains with a lot of flexibility and customization options for their applications.
+
+## What's a parathread?
 On the other hand, a parathread is also a separate blockchain that can communicate with other blockchains. However, it is designed to be less expensive to use than a parachain. Parathreads only produce a block when necessary, which means they can save on resources and are better suited for applications that do not require frequent updates.
 
 Both parachains and parathreads provide customization options for developers, allowing them to create new types of applications that were not possible before. However, the main difference is that parachains provide more space and flexibility, while parathreads are more cost-effective and suitable for applications that require less frequent updates.
+
+## Parathread Construction
+
+In summary, constructing a parathread involves defining the use case, developing the code, connecting it to the main blockchain network, allocating resources, testing, and launching it. Parathreads provide an additional layer of scalability to blockchain networks, allowing for specialized use cases without impacting the performance of the main blockchain. The specific instructions and protocols for constructing a parathread may vary depending on the blockchain platform being used.
