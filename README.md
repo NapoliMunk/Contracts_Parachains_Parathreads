@@ -56,3 +56,5 @@ Collator - https://guide.kusama.network/docs/learn-collator
 Polkadot GitHub - https://github.com/paritytech/polkadot
 
 Connect A Realy and Parachain (Tutorial) - https://docs.substrate.io/tutorials/connect-relay-and-parachains/prepare-a-local-relay-chain/
+
+Pay as You Go (Parathread Explaination) - https://medium.com/polkadot-network/parathreads-pay-as-you-go-parachains-7440d23dde06
