@@ -10,7 +10,6 @@ An Ethereum smart contract is a computer program that runs on the Ethereum block
 Constructing a smart contract involves defining the contract terms, choosing a programming language, developing the smart contract code, testing and debugging it, and deploying it on a blockchain network. Smart contracts are self-executing and self-enforcing contracts that are fully automated and transparent. They eliminate the need for intermediaries and can help to reduce the time and costs associated with traditional contractual agreements. The specific programming language and standards used may vary depending on the blockchain network being used.
 
 
-
 ## What's a Parachain?
 
 A parachain is a separate blockchain that can communicate with other blockchains and shares security with a relay chain. This means that it can benefit from the security of the relay chain and can communicate with other blockchains that are also connected to the relay chain.
@@ -33,6 +32,17 @@ Both parachains and parathreads provide customization options for developers, al
 ### Parathread Construction
 
 In summary, constructing a parathread involves defining the use case, developing the code, connecting it to the main blockchain network, allocating resources, testing, and launching it. Parathreads provide an additional layer of scalability to blockchain networks, allowing for specialized use cases without impacting the performance of the main blockchain. The specific instructions and protocols for constructing a parathread may vary depending on the blockchain platform being used.
+
+
+# Discoveries from experiment
+
+
+
+# Pitfalls & Pain Points
+
+
+
+
 
 ### Disclaimer: 
 All code pertaining to substrate based parachains, parathreads were intended for reference of what is both possible and is not an endorsement of any particular software.
