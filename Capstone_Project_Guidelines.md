@@ -1,7 +1,5 @@
 # Capstone Project Guidelines
 
-This week, you will begin work on your final project of the boot camp! You can choose any topic from any section of the course for this capstone project.
-
 Project examples include:
 
 * Tokenize an asset using the proper ERC standards
@@ -13,77 +11,67 @@ Project examples include:
 
 ## Technical Requirements
 
-Note that your assignment will be graded according to the following rubric:
-
-* Proficiency (&ge; 90% of the points)
-
-* Approaching proficiency (&ge; 80% of the points)
-
-* Progressing (&ge; 70% of the points)
-
-* Emerging (&lt; 70% of the points)
-
 The following subsections list the technical requirements for the final Capstone project.
 
 ### Software Version Control (10 points)
 
-* Repository created on GitHub. (2 points)
+* Repository created on GitHub. (2 points) - DONE
 
-* Files frequently committed to repository. (3 points)
+* Files frequently committed to repository. (3 points) - DONE
 
-* Commit messages with appropriate level of detail included. (2 points)
+* Commit messages with appropriate level of detail included. (2 points) - DONE
 
-* Repository organized, and relevant information and project files included. (3 points)
+* Repository organized, and relevant information and project files included. (3 points) - DONE
 
 ### Data Collection and Preparation (10 points)
 
-* Data collected, cleaned, and prepared for the application or analysis. (10 points)
+* Data collected, cleaned, and prepared for the application or analysis. (10 points) 
 
 ### Development  (40 points)
 
-* Jupyter notebook, Google Colab notebook, Amazon SageMaker Studio notebook, or Streamlit application created. (10 points)
+* Design a Streamlit application created for smart contract use. (10 points) - 
 
-* One or more Python modules, machine learning models, or Solidity smart contracts created. (10 points)
+* One or more Python modules to display as a frontend for Solidity smart contracts created. (10 points) -
 
-* Calculations, metrics, visualizations, or video needed to demonstrate the application included. (10 points)
+* Provides visual queues, metrics , and graphs or even video demonstrations to explain the objective of technologies (10 points) -
 
-* One new technology or library used that the class hasn't covered. (10 points)
+* Substrate & Rust. (10 points) - DONE
 
 ### Documentation (15 points)
 
-* Code is well commented with concise, relevant notes. (5 points)
+* Code is well commented with concise, relevant notes. (5 points) 
 
-* GitHub `README.md` file includes a concise project overview. (2 points)
+* GitHub `README.md` file includes a concise project overview. (2 points) - Needs a better call to action (take away).
 
-* GitHub `README.md` file includes detailed usage and installation instructions. (3 points)
+* GitHub `README.md` file includes detailed usage and installation instructions. (3 points) - Usage and installation instructions for both streamlit app and parachain.
 
-* GitHub `README.md` file includes either examples of the application or the results and summary of the analysis. (5 points)
+* GitHub `README.md` Provide a demonstration of the application and an analysis of it's usage. (5 points)
 
 ### Presentation (25 points)
 
 Each project group will prepare a formal 10-minute presentation that includes the following:
 
-* An executive summary of the project and project goals. (5 points)
+* An executive summary of the project and project goals. (5 points) - Briefly display the key differences in Fintech applications specifically blockchain technologies i.e. smart contracts, parachains, and parathreads. 
 
-    * Explain how this project relates to fintech.
+    * Explain the inefficiencies one tech over another.
 
-* The approach that your group took to achieve the project goals. (10 points)
+* The approach that your group took to achieve the project goals. (10 points) -
 
-    * Include any relevant code or demonstrations of the analysis or application.
+    * Video demonstration and analysis of products.
 
-    * Describe the techniques that you used to test or evaluate the code.
+    * Techniques used to evaluate the code.
 
-    * Discuss any unanticipated insights or problems that arose and how you resolved them.
+    * Unexpected insights or problems found during this experiment.
 
 * The results and conclusions from the analysis or application. (5 points)
 
-    * Include relevant images or examples to support your work.
+    * Include relevant images to support application analysis conclusions.
 
-    * If the project goal wasn’t achieved, share the issues and what the group tried for resolving them.
+    * If the project goal wasn't achieved please discuss what the hurdles were and what you did to remedy them.
 
 * Next steps. (5 points)
 
-    * Take a moment to discuss the potential next steps for the project.
+    * Discuss how you believe the project could improve. - Developer Relations
 
     * Discuss any additional questions that you’d explore if you had more time. Specifically, if you had additional weeks to work on your project, what would you research next?
 
