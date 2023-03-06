@@ -7,10 +7,6 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 * Substrate Smart Contracts: Substrate is a blockchain development framework that allows developers to build their own custom blockchains. It includes a modular architecture that allows developers to choose which components they want to include in their blockchain. Substrate smart contracts are written in the Rust programming language and are executed using the Ink! smart contract language.
 
-
-     <img src="Images/Substrate/comparison.png"  width=50% height=50%>
-
-
 * Parachains and Parathreads: Parachains and parathreads are components of the Polkadot network, which is a multi-chain network that allows for interoperability between different blockchains. Parachains are independent blockchains that are connected to the Polkadot network, while parathreads are lighter-weight blockchains that can run on the Polkadot network without requiring a full parachain slot. Parachains and parathreads can have their own smart contracts, written in any programming language that can be compiled to WebAssembly.
 
 <img src="Images/Substrate/Runtime.JPG"  width=30% height=30%>
@@ -26,6 +22,8 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 * Substrate Smart Contracts: Substrate smart contracts are constructed using the Ink! smart contract language, which is a Rust-based language specifically designed for writing smart contracts on the Substrate blockchain development framework. Ink! provides a high-level language that is easy to use and includes features such as automatic memory management, type safety, and built-in testing tools. Once a smart contract is written in Ink!, it is compiled into WebAssembly bytecode that can be executed on the Substrate runtime environment.
 
 * Parachains and Parathreads: Parachains and parathreads are constructed using any programming language that can be compiled into WebAssembly bytecode. This includes languages such as Rust, C++, and AssemblyScript. Once a smart contract is written in one of these languages, it is compiled into WebAssembly bytecode and uploaded to the Polkadot network. The contract can then be executed on the Polkadot network using the WebAssembly runtime environment.
+
+<img src="Images/Substrate/comparison.png"  width=50% height=50%>
 
 ## Section Summary
 * Ethereum smart contracts are constructed using the Solidity programming language and are executed on the Ethereum Virtual Machine. Substrate smart contracts are constructed using the Ink! smart contract language and are executed on the Substrate runtime environment. Parachains and parathreads can be constructed using any programming language that can be compiled into WebAssembly bytecode and are executed on the WebAssembly runtime environment on the Polkadot network.
