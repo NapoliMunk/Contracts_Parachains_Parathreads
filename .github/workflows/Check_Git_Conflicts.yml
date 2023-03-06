@@ -1,0 +1,40 @@
+name: Check Git Conflicts
+
+on:
+  push:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  check_conflicts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Merge pull request branch
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          git fetch origin ${{ github.head_ref }}
+          git checkout -b pr-branch origin/${{ github.head_ref }}
+
+      - name: Merge base branch into pull request branch
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          git fetch origin ${{ github.base_ref }}
+          git merge --no-commit --no-ff origin/${{ github.base_ref }}
+
+      - name: Check for conflicts
+        run: |
+          set -e
+          git merge --no-commit --no-ff HEAD@{1}
+          if git diff --quiet; then
+            echo "No conflicts found."
+          else
+            echo "Conflicts found."
+            git status
+            ISSUE_TITLE="Conflict found in branch '${{ github.base_ref }}' when merging pull request '${{ github.head_ref }}'"
+            ISSUE_BODY="Please resolve the conflicts before merging."
+            ISSUE_URL=$(curl --silent --request POST --header "Authorization: Bearer ${{ secrets.GITHUB }}" --header "Accept: application/vnd.github.v3+json" --data "{\"title\": \"${ISSUE_TITLE}\", \"body\": \"${ISSUE_BODY}\"}" "https://api.github.com/repos/${{ github.repository }}/issues" | jq -r .html_url)
+            echo "Created issue ${ISSUE_URL}"
+          fi
