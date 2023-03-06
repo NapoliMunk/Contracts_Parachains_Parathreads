@@ -9,7 +9,9 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 * Parachains and Parathreads: Parachains and parathreads are components of the Polkadot network, which is a multi-chain network that allows for interoperability between different blockchains. Parachains are independent blockchains that are connected to the Polkadot network, while parathreads are lighter-weight blockchains that can run on the Polkadot network without requiring a full parachain slot. Parachains and parathreads can have their own smart contracts, written in any programming language that can be compiled to WebAssembly.
 
-** In summary, Ethereum smart contracts are executed on the Ethereum blockchain, while Substrate smart contracts are executed on custom blockchains built using the Substrate framework. Parachains and parathreads are components of the Polkadot network, which allows for interoperability between different blockchains and can run smart contracts in any language that can be compiled to WebAssembly.
+##Section Summary
+
+* Ethereum smart contracts are executed on the Ethereum blockchain, while Substrate smart contracts are executed on custom blockchains built using the Substrate framework. Parachains and parathreads are components of the Polkadot network, which allows for interoperability between different blockchains and can run smart contracts in any language that can be compiled to WebAssembly.
 
 ### How do they differe in how they're constructed.
 
@@ -19,7 +21,8 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 * Parachains and Parathreads: Parachains and parathreads are constructed using any programming language that can be compiled into WebAssembly bytecode. This includes languages such as Rust, C++, and AssemblyScript. Once a smart contract is written in one of these languages, it is compiled into WebAssembly bytecode and uploaded to the Polkadot network. The contract can then be executed on the Polkadot network using the WebAssembly runtime environment.
 
--- In summary, Ethereum smart contracts are constructed using the Solidity programming language and are executed on the Ethereum Virtual Machine. Substrate smart contracts are constructed using the Ink! smart contract language and are executed on the Substrate runtime environment. Parachains and parathreads can be constructed using any programming language that can be compiled into WebAssembly bytecode and are executed on the WebAssembly runtime environment on the Polkadot network.
+## Section Summary
+* Ethereum smart contracts are constructed using the Solidity programming language and are executed on the Ethereum Virtual Machine. Substrate smart contracts are constructed using the Ink! smart contract language and are executed on the Substrate runtime environment. Parachains and parathreads can be constructed using any programming language that can be compiled into WebAssembly bytecode and are executed on the WebAssembly runtime environment on the Polkadot network.
 
 
 # Discoveries from experiment
