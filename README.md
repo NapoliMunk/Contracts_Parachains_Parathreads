@@ -35,8 +35,7 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 * Time to Market: The time to market for a product can be impacted by the choice of technology. Ethereum smart contracts have a more established ecosystem, making it potentially easier and faster to develop and deploy a product. Substrate smart contracts and parachains/parathreads may require more time to develop and test, especially if the development team is less experienced with the technology.
 
-Overall, the choice between developing a smart contract or a parachain will depend on the specific use case and requirements of the project. Smart contracts are more suitable for simple use cases and limited budgets, while parachains are better suited for more complex use cases with greater customization needs and larger budgets.
-
+Overall, the choice between developing a smart contract or a parachain will depend on the specific use case and requirements of the project. Smart contracts are more suitable for simple use cases and limited budgets, while parachains are better suited for more complex use cases with greater customization needs and larger budgets. Understanding the financial implications of using these technologies can help inform key business decisions, such as technology stack selection, development timelines, and revenue potential.
 
 # Pitfalls & Pain Points
 
