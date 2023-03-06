@@ -1,0 +1,58 @@
+name: Substrate ArtRegistry Workflow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build and Test ArtRegistry Module
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+
+      - name: Install Substrate Node Template
+        run: |
+          git clone https://github.com/substrate-developer-hub/substrate-node-template.git
+          cd substrate-node-template
+          git checkout v3.0.0
+          cargo build --release
+
+      - name: Add ArtRegistry Module
+        run: |
+          cd substrate-node-template
+          curl -sSf https://raw.githubusercontent.com/substrate-developer-hub/substrate-node-template/v3.0.0/template-module/art-registry.rs > ./node/src/art_registry.rs
+          sed -i 's/construct_runtime!/construct_runtime!(ArtRegistry)/' ./node/src/lib.rs
+
+      - name: Compile Runtime
+        run: |
+          cd substrate-node-template
+          cargo build --release
+
+      - name: Run Node
+        run: |
+          cd substrate-node-template
+          ./target/release/node-template --dev
+
+      - name: Test ArtRegistry Module
+        run: |
+          cd substrate-node-template
+          ./target/release/node-template purge-chain --dev
+          ./target/release/node-template --dev &
+          sleep 5
+          ./target/release/node-template install-artregistry --dev
+          ./target/release/node-template test --no-default-features --features runtime-benchmarks, art-registry -- --test-threads=1
+
+      - name: Stop Node
+        run: |
+          cd substrate-node-template
+          ./target/release/node-template purge-chain --dev
