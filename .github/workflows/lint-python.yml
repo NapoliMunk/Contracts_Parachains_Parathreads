@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: pip install ruff
     - name: Run linting
-      run: ruff lint /Contracts_Parachains_Parathreads/Solidity/app.py /Contracts_Parachains_Parathreads/Solidity/pin.py 
+      run: ruff /Contracts_Parachains_Parathreads/Solidity/app.py /Contracts_Parachains_Parathreads/Solidity/pin.py 
     - name: Save lint report
       if: always()
       uses: actions/upload-artifact@v2
