@@ -36,6 +36,7 @@ In summary, constructing a parathread involves defining the use case, developing
 
 # Discoveries from experiment
 
+Overall, the choice between developing a smart contract or a parachain will depend on the specific use case and requirements of the project. Smart contracts are more suitable for simple use cases and limited budgets, while parachains are better suited for more complex use cases with greater customization needs and larger budgets.
 
 
 # Pitfalls & Pain Points
