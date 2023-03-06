@@ -6,9 +6,9 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 * Ethereum Smart Contracts: Ethereum is a blockchain platform that allows developers to build decentralized applications (dApps) using smart contracts. Smart contracts are self-executing programs that automatically enforce the rules and logic of an agreement between parties. Ethereum's smart contracts are written in Solidity and are executed on the Ethereum Virtual Machine (EVM).
 
 * Substrate Smart Contracts: Substrate is a blockchain development framework that allows developers to build their own custom blockchains. It includes a modular architecture that allows developers to choose which components they want to include in their blockchain. Substrate smart contracts are written in the Rust programming language and are executed using the Ink! smart contract language.
-
+<img src="Images/Substrate/comparison.png"  width=100% height=100%>
 * Parachains and Parathreads: Parachains and parathreads are components of the Polkadot network, which is a multi-chain network that allows for interoperability between different blockchains. Parachains are independent blockchains that are connected to the Polkadot network, while parathreads are lighter-weight blockchains that can run on the Polkadot network without requiring a full parachain slot. Parachains and parathreads can have their own smart contracts, written in any programming language that can be compiled to WebAssembly.
-<img src="/Images/Substrate/Runtime.jpg"  width=100% height=100%>
+<img src="Images/Substrate/Runtime.jpg"  width=100% height=100%>
 ## Section Summary
 
 * Ethereum smart contracts are executed on the Ethereum blockchain, while Substrate smart contracts are executed on custom blockchains built using the Substrate framework. Parachains and parathreads are components of the Polkadot network, which allows for interoperability between different blockchains and can run smart contracts in any language that can be compiled to WebAssembly.
