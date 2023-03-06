@@ -26,6 +26,7 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 
 # Discoveries from experiment
+Overall, the choice between developing a smart contract or a parachain will depend on the specific use case and requirements of the project. Smart contracts are more suitable for simple use cases and limited budgets, while parachains are better suited for more complex use cases with greater customization needs and larger budgets. Understanding the financial implications of using these technologies can help inform key business decisions, such as technology stack selection, development timelines, and revenue potential.
 
 * Cost of Development: The cost of developing a product using Ethereum smart contracts, Substrate smart contracts, or parachains/parathreads can vary depending on the complexity of the project, the size of the development team, and the chosen technology stack. Solidity is a well-established language and has a large developer community, making it potentially easier to find developers and resources. In contrast, Substrate and parachains/parathreads are newer technologies and may require a more specialized skillset, which could potentially lead to higher development costs.
 
@@ -35,7 +36,6 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 * Time to Market: The time to market for a product can be impacted by the choice of technology. Ethereum smart contracts have a more established ecosystem, making it potentially easier and faster to develop and deploy a product. Substrate smart contracts and parachains/parathreads may require more time to develop and test, especially if the development team is less experienced with the technology.
 
-Overall, the choice between developing a smart contract or a parachain will depend on the specific use case and requirements of the project. Smart contracts are more suitable for simple use cases and limited budgets, while parachains are better suited for more complex use cases with greater customization needs and larger budgets. Understanding the financial implications of using these technologies can help inform key business decisions, such as technology stack selection, development timelines, and revenue potential.
 
 # Pitfalls & Pain Points
 
