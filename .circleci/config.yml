@@ -1,0 +1,49 @@
+version: 2.1
+
+jobs:
+  lint:
+    docker:
+      - image: circleci/python:3.9
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install dependencies
+          command: |
+            python -m pip install --upgrade pip
+            pip install flake8
+            pip install -r requirements.txt
+
+      - run:
+          name: Run Flake8
+          command: |
+            flake8 --exclude=.git,__pycache__,.venv
+
+      - run:
+          name: Automated Code Review
+          command: |
+            curl -LsS https://coverage.codacy.com/get.sh | bash -s report -r coverage.xml
+
+      - run:
+          name: Automated Testing
+          command: |
+            python -m pytest tests/
+
+      - run:
+          name: Build and Push Docker Image
+          command: |
+            echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
+            docker build -t my-image-name:latest .
+            docker push my-image-name:latest
+
+workflows:
+  version: 2
+
+  lint:
+    jobs:
+      - lint:
+          filters:
+            branches:
+              only: main
