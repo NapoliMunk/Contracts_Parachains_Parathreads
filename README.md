@@ -27,7 +27,7 @@ I will attempt to contrast the development of a smart contract &amp; the develop
 
 * Parachains and Parathreads: Parachains and parathreads are constructed using any programming language that can be compiled into WebAssembly bytecode. This includes languages such as Rust, C++, and AssemblyScript. Once a smart contract is written in one of these languages, it is compiled into WebAssembly bytecode and uploaded to the Polkadot network. The contract can then be executed on the Polkadot network using the WebAssembly runtime environment.
 
-Images/Substrate/Parachain/downgrade_upgrade.png
+- Shown below is a depiction of what the difference of a parachain and parathread are one thing to keep in mind parachain will always need to proof validity to there validators while parathread only need to do so when they are submitting transactions.
 
 <img src="Images/Substrate/Parachain/downgrade_upgrade.png"  width=50% height=50%>
 
