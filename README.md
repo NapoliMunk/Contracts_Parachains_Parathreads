@@ -47,8 +47,9 @@ Overall, the choice between developing a smart contract or a parachain will depe
 
 # Pitfalls & Pain Points
 
+* Some pain points we discovered during our development process of the ethereum Art_Registry smart contract were whether to optimize for gas fees while maintaining a user friendly that could be easily read.
 
-
+* Some Pitfalls we discovered during our development of the substrate pallet Art_Registry were that the complexity and fore thought it took, combine with understanding of infrastructure requirements were a hefty order for a team of web3 developers let alone a single developer.
 
 
 ### Disclaimer: 
