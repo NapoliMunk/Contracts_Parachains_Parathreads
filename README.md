@@ -1,4 +1,4 @@
-# What's the Difference of Building a Ethereum Smart Contract, Substrate Smart Contract, a Parachain & a Parathread?
+# What's the Difference of Building a Ethereum Smart Contract, Substrate Smart Contract, or choosing the Parachain & or Parathread?
 I will attempt to contrast the development of a smart contract &amp; the development of a parachain/parathread.
 
 ## Our contenders
