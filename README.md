@@ -69,6 +69,10 @@ Collator - https://guide.kusama.network/docs/learn-collator
 
 Polkadot GitHub - https://github.com/paritytech/polkadot
 
+Substrate.io website - https://substrate.io/
+
 Connect A Realy and Parachain (Tutorial) - https://docs.substrate.io/tutorials/connect-relay-and-parachains/prepare-a-local-relay-chain/
 
 Pay as You Go (Parathread Explaination) - https://medium.com/polkadot-network/parathreads-pay-as-you-go-parachains-7440d23dde06
+
+A list of Awesomeness dedicated to substrate - https://github.com/substrate-developer-hub/awesome-substrate
