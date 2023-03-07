@@ -63,6 +63,10 @@ All code pertaining to substrate based parachains, parathreads were intended for
 
 ### Links to Sources.
 
+Ethereum Consensus (deprecated) - https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/
+
+Ethereum development environment and tools - https://ethereum.org/en/developers/local-environment/
+
 Builder's Starter Guide - https://guide.kusama.network/docs/build-build-with-polkadot
 
 Collator - https://guide.kusama.network/docs/learn-collator
